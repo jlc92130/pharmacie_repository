@@ -5,7 +5,6 @@ from medicament import *
 # Bootstrap de l'application
 
 """
-Cours :
 
 1/ Une classe un role unique Client, Medicament et Pharmacy
 
