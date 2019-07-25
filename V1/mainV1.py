@@ -5,6 +5,7 @@ from medicament import *
 # Bootstrap de l'application
 
 """
+eeeeeeeeeeeeeeeeeeeeee
 1/ Une classe un role unique Client, Medicament et Pharmacy
 
 2/ Pharmacy c'est un container car il agrège les entités Client et Medicament, son rôle c'est d'appliquer
