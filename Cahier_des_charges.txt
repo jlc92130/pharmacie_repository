@@ -1,0 +1,67 @@
+Le but du programme
+
+Afficher un menu:
+
+Menu de l'application
+
+1 - commande_client (Le client achete des médicaments)
+2 - commande_fournisseur (le pharmacien commande  des medicaments aupres du fournisseur)
+3 - Etat des stocks  
+4 - Ajout nouveau medicament
+5 - Ajout nouveau client
+6 - Quitter 
+
+
+A partir de ce menu le pharmacien fait son choix
+
+choix 1
+Si le pharmacien choisit 1 alors on a l affichage suivant:
+
+Nom du client ?
+-champs texte pour entrer nom client
+Si le nom du client n'existe pas(nveau client), le rajouter dans la base de donnée
+
+Date d'achat?
+-champs texte entrer date au format jj/mm/aaaa
+
+Nom du medicament(acheter par le client a la pharmacie)?:
+-champs texte pour entrer le ou les medicaments achetés par le client
+
+Quantité achetée?:
+
+-champs texte pour saisir le nombre de boites
+
+
+
+Mettre à jour le stock medicament
+
+
+choix 2
+Si le pharmacien choisit 2 alors on a l affichage suivant:
+
+Nom du medicament(commander par le pharmacien pour approvisionner stock)?:
+-champs texte pour saisir le ou les medicaments commandés par le pharmacien
+
+Nombre de boites ?
+-champs texte pour entrer le nombre de boites
+
+Mettre à jour le stock de medicament
+
+choix 3
+Si le pharmacien choisit 3 alors on a l affichage suivant:
+
+---Affichage des stocks---
+on voit la liste des medicaments en stock et leur quantité  exemple:
+Stock "Advil" : 10
+stock "eeee" : 25
+stock "ejrjeje" : 40
+.
+.
+.
+---Affichage du chiffre d'affaire total ou par client à partir d'une date donnée---
+
+Selectionner une date exemple 01/01/2017.
+Choisir CA total (donne le chiffre d'affaire a partir de cette date) ou CA/client(donne le chiffre d'affaire généré par ce client) ou CA/medicament
+
+
+
